@@ -101,7 +101,8 @@ export const exploreProjects = [
         "title": "Tech-stack",
         "content": "Python, NumPy"
       }
-    ]
+    ],
+    "imageText": "Test"
   },
   
   {

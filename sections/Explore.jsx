@@ -44,7 +44,7 @@ const Explore = () => {
         />
         <div className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white z-10'>
         
-            <Button colorScheme='purple' size='lg' variant='outline' onClick={aboutButtonClick}>
+            <Button colorScheme='purple' size='lg' variant='outline' onClick={projectsButtonClick}>
               
                 View all projects
                 

@@ -35,6 +35,10 @@ module.exports = {
     'import/prefer-default-export': 0,
     'react/react-in-jsx-scope': 'off',
     'react/jsx-props-no-spreading': 'off',
+    'no-multiple-empty-lines': 0,
+    'no-trailing-spaces': 0,
+    'import/newline-after-import': 0,
+    'no-template-curly-in-string': 0,
     'jsx-a11y/no-noninteractive-element-interactions': 'off',
     'no-unused-vars': 'off', // Add this line to suppress unused variables
     'react/jsx-tag-spacing': 'off', // Add this line to suppress tag spacing warnings

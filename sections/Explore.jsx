@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
 import { Button, ButtonGroup } from '@chakra-ui/react'
 import styles from '../styles';
@@ -9,6 +10,7 @@ import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
+  const router = useRouter();
   const [active, setActive] = useState('world-2');
   const [currentPage, setCurrentPage] = useState(0);
   const cardsPerPage = 5;
@@ -18,6 +20,12 @@ const Explore = () => {
     currentPage * cardsPerPage,
     (currentPage + 1) * cardsPerPage
   );
+  const aboutButtonClick = () => {
+    router.push('/about'); // Navigate to the about page
+  };
+  const projectsButtonClick = () => {
+    router.push('/projects'); // Navigate to the about page
+  };
 
   return (
     <section className={`${styles.paddings}`} id="explore">
@@ -35,9 +43,13 @@ const Explore = () => {
           textStyles="text-center"
         />
         <div className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white z-10'>
-        <Button colorScheme='purple' size='lg' variant='outline'>
-        View all projects
-        </Button>
+        
+            <Button colorScheme='purple' size='lg' variant='outline' onClick={aboutButtonClick}>
+              
+                View all projects
+                
+            </Button>
+          
         </div>
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
           {currentWorlds.map((world, index) => (

@@ -268,3 +268,77 @@ export const exploreProjects = [
   },  
   // Add more projects as needed
 ];
+
+export const exploreCerts = [
+  {
+    "id": "Cert-1",
+    "imgUrl": "/UofL.png",
+    "title": "University of London",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "University of London"
+      }
+    ],
+    "imageText": "University of London"
+  },
+  {
+    "id": "Cert-2",
+    "imgUrl": "/Yale.png",
+    "title": "Yale University",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "Yale University"
+      }
+    ],
+    "imageText": "Yale University"
+  },
+  {
+    "id": "Cert-3",
+    "imgUrl": "/HKU.png",
+    "title": "The Hong Kong University of Science and Technology",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "The Hong Kong University of Science and Technology"
+      }
+    ],
+    "imageText": "The Hong Kong University of Science and Technology"
+  },
+  {
+    "id": "Cert-4",
+    "imgUrl": "/Upenn.png",
+    "title": "University of Pennsylvania",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "University of Pennsylvania"
+      }
+    ],
+    "imageText": "University of Pennsylvania"
+  }
+  
+  
+  // Add more projects as needed
+];

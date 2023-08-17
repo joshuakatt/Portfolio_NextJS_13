@@ -1,9 +1,6 @@
-
+// Import statements combined
 import { Footer, Navbar } from '../components';
-import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-import { HeroCerts } from '../sections';
-import Certificates from '../sections';
-
+import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World, HeroCerts, Certificates } from '../sections';
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">

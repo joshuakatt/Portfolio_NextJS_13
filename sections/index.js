@@ -8,7 +8,7 @@ import Insights from './Insights';
 import Feedback from './Feedback';
 import HeroProjects from './HeroProjects';
 import HeroCerts from './HeroCerts';
-import Certificates from './certificates';
+import Certificates from './Certificates';
 
 export {
   Hero,

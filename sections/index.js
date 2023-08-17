@@ -6,6 +6,9 @@ import WhatsNew from './WhatsNew';
 import World from './World';
 import Insights from './Insights';
 import Feedback from './Feedback';
+import HeroProjects from './HeroProjects';
+import HeroCerts from './HeroCerts';
+import Certificates from './certificates';
 
 export {
   Hero,
@@ -16,4 +19,7 @@ export {
   World,
   Insights,
   Feedback,
+  HeroProjects,
+  HeroCerts,
+  Certificates,
 };

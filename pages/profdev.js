@@ -1,8 +1,7 @@
 
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-import HeroCerts from '../sections/HeroCerts';
-import Certificates from '../sections/certificates';
+import { HeroCerts, Certificates } from '../sections';
 
 
 const Home = () => (
@@ -12,7 +11,7 @@ const Home = () => (
       <div className="gradient-03 z-0" />
 
       <HeroCerts />
-      <Certificates/>
+      <Certificates />
     </div>
     
     <Footer />

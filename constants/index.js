@@ -89,7 +89,7 @@ export const socials = [
 export const exploreProjects = [
   {
     "id": "Project-1",
-    "imgUrl": "/planet-01.png",
+    "imgUrl": "/project-1.png",
     "title": "My own Neural Network",
     "description": "I embarked on an exciting journey to create my very own neural network, using the MNIST dataset. Building a Multilayer Perceptron (MLP) from scratch in Python, I trained it to recognize handwritten digits and evaluated its performance using Python and NumPy. The experience provided a deep insight into the intricacies of neural networks and honed my skills in data preprocessing and evaluation. View Project [Read Here](Read Here).",
     "sections": [
@@ -107,7 +107,7 @@ export const exploreProjects = [
   
   {
     "id": "Project-2",
-    "imgUrl": "/planet-02.png",
+    "imgUrl": "/project-2.png",
     "title": "SmartSlide",
     "description": "SmartSlide revolutionizes meetings and presentations by automating slide transitions using presenter speech. By integrating live speech recognition, it eliminates the need to manually change slides, enhancing the flow and efficiency of communication. This innovative approach leverages Python, Tkinter, and the TextRazor API to create a seamless user experience. View Project [Read Here](Read Here).",
     "sections": [
@@ -124,7 +124,7 @@ export const exploreProjects = [
   ,
   {
     "id": "Project-3",
-    "imgUrl": "/planet-03.png",
+    "imgUrl": "/project-3.png",
     "title": "PixScout: A 2D Odyssey",
     "description": "PixScout: A 2D Odyssey is a captivating game that brings together animated sprites, follow-around camera, and real-time in-game physics. With a modular game loading feature, players can easily switch between different game experiences. Whether exploring a simpler map in Game1 or tackling a more complex terrain in Game2, the adventure awaits. Built with LUA and LÖVE 2D, the game offers an immersive experience. View Project [STI](STI) [anim8](anim8).",
     "sections": [
@@ -140,7 +140,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-4",
-    "imgUrl": "/planet-04.png",
+    "imgUrl": "/project-4.png",
     "title": "ML Image Recognition",
     "description": "ML Image Recognition is an advanced exploration into the world of image classification using the CIFAR 100 dataset. By delving into convolutional neural networks (CNNs), transfer learning with models like VGG16, and utilizing techniques like data augmentation, the project achieves remarkable results. Two unique models were developed, each employing various strategies and technologies. This cutting-edge work, done using Python, Tensorflow, Keras, and Pandas, reflects the forefront of machine learning and AI. View Project [Read Here](Read Here).",
     "sections": [
@@ -156,7 +156,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-5",
-    "imgUrl": "/planet-05.png",
+    "imgUrl": "/project-5.png",
     "title": "ML Sentiment Analysis",
     "description": "ML Sentiment Analysis takes the challenge of classifying movie reviews into positive or negative sentiments using the IMDb dataset. A blend of Natural Language Processing techniques, word embeddings, and modern machine learning tools created a robust classification system. From tokenization to stop word removal and stemming, the project delves into the subtleties of text data preprocessing. Built using Python, Tensorflow, Keras, and GloVe, it's a showcase of how machine learning can be applied to the understanding of human emotions. View Project [Read Here](Read Here).",
     "sections": [
@@ -172,7 +172,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-6",
-    "imgUrl": "/planet-06.png",
+    "imgUrl": "/project-6.png",
     "title": "3D Rubik's Cube Simulator",
     "description": "The 3D Rubik's Cube Simulator is a creative blend of mathematics, visualization, and interactive design. Developed in Python and utilizing the Matplotlib and NumPy libraries, this simulator brings the classic Rubik's Cube to life on your screen. With quaternion-based rotation handling, a graphical user interface to solve the cube, and features to undo steps and take screenshots, it's a fascinating example of how programming can transform a traditional puzzle into an engaging digital experience. View Project [Read Here](Read Here).",
     "sections": [
@@ -188,7 +188,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-7",
-    "imgUrl": "/planet-07.png",
+    "imgUrl": "/project-7.png",
     "title": "CrazyRydes",
     "description": "CrazyRydes is a state-of-the-art serverless web application that leverages the power of AWS services to create a scalable and secure environment. With components such as AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito, this application embodies the future of efficient web development. The serverless backend, secure user authentication, flexible data storage, and streamlined frontend development process highlight the technological innovation at the core of this project. View Project [Read Here](Read Here).",
     "sections": [
@@ -204,7 +204,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-8",
-    "imgUrl": "/planet-08.png",
+    "imgUrl": "/project-8.png",
     "title": "Full Stack E-commerce Clone",
     "description": "The Full Stack E-commerce Clone is a robust and dynamic application that emulates a major online retail platform. Utilizing modern web technologies like JavaScript, npx, Firebase, React, Redux, and the Stripe API, this project offers a real-world e-commerce experience. With Firebase's real-time data handling, secure transaction processing through Stripe, and an engaging user interface crafted with HTML, CSS, and React Context API, it's a comprehensive demonstration of full-stack development expertise. View Project [Read Here](Read Here).",
     "sections": [
@@ -220,7 +220,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-9",
-    "imgUrl": "/planet-09.png",
+    "imgUrl": "/project-9.png",
     "title": "Blog Management Platform",
     "description": "The Blog Management Platform is a sophisticated full-stack JS web application developed using Node.js and Express.js, showcasing an event-driven, non-blocking I/O model. The system is built around a RESTful API for seamless article management, supporting all CRUD (Create, Read, Update, Delete) operations. With dynamic EJS templates and well-designed route handling and server-side logic, this platform epitomizes efficiency, flexibility, and scalability in web development. View Project [Read Here](Read Here).",
     "sections": [
@@ -236,7 +236,7 @@ export const exploreProjects = [
   },
   {
     "id": "Project-10",
-    "imgUrl": "/planet-10.png",
+    "imgUrl": "/project-10.png",
     "title": "Webpage Price Monitor",
     "description": "The Webpage Price Monitor is a Go-based scraper designed to track changes and notify users efficiently. Utilizing powerful libraries such as Gin and Colly, it offers a flexible and robust solution to web scraping needs. With a custom-interval goroutine for periodic tasks and integration with GoQuery for data extraction, this tool embodies precision, reliability, and scalability in monitoring and data analysis. View Project [Read Here](Read Here).",
     "sections": [
@@ -252,7 +252,7 @@ export const exploreProjects = [
   },      
   {
     "id": "Project-11",
-    "imgUrl": "/planet-11.png",
+    "imgUrl": "/project-11.png",
     "title": "Digital Can't Stop",
     "description": "Digital Can't Stop is a contemporary take on the classic game 'Can't Stop,' designed and crafted with Java and the Swing GUI library. Developed in collaboration with a team of fellow students for a software engineering course, this digital version introduces modern features such as Save/Load through serialization and potential networking capabilities. Thoughtfully inclusive, the game also includes accessibility features for individuals with CVD (Color Vision Deficiency). View Project [Read Here](Read Here).",
     "sections": [

@@ -1,27 +1,27 @@
 export const exploreWorlds = [
   {
     id: 'world-1',
-    imgUrl: '/planet-01.png',
+    imgUrl: '/project-1.png',
     title: 'My own Neural Network',
   },
   {
     id: 'world-2',
-    imgUrl: '/planet-02.png',
+    imgUrl: '/project-2.png',
     title: 'SmartSlide',
   },
   {
     id: 'world-3',
-    imgUrl: '/planet-03.png',
+    imgUrl: '/project-3.png',
     title: 'PixScout: An Odyssey',
   },
   {
     id: 'world-4',
-    imgUrl: '/planet-04.png',
-    title: 'Image Recognition ML',
+    imgUrl: '/project-7.png',
+    title: 'Serverless AWS app',
   },
   {
     id: 'world-5',
-    imgUrl: '/planet-05.png',
+    imgUrl: '/project-8.png',
     title: 'E-commerce website',
   },
 ];
@@ -49,7 +49,7 @@ export const newFeatures = [
 
 export const insights = [
   {
-    imgUrl: '/planet-06.png',
+    imgUrl: '/HKU.png',
     title: 'Find a list of certifications and courses I have completed so far!',
     subtitle:
         'I believe that consistent self-development helps me improve myself. Here you canf ind some courses I have completed with Coursera, AWS, etc.',

@@ -1,7 +1,8 @@
 
 import { Footer, Navbar } from '../components';
 import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World } from '../sections';
-import { HeroCerts, Certificates } from '../sections';
+import { HeroCerts } from '../sections';
+import Certificates from '../sections';
 
 
 const Home = () => (

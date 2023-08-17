@@ -1,8 +1,8 @@
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
+import { Button } from '@chakra-ui/react'; // Moved up
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
-import { Button } from '@chakra-ui/react';
 
 const Navbar = () => {
   const router = useRouter();
@@ -35,7 +35,7 @@ const Navbar = () => {
         <div onClick={navigateToIndex} className='text-center'>
           <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>JOSHUA KATTAPURAM</h2>
         </div>
-        <div className='w-[24px] h-[24px] object-contain'></div> // Placeholder div
+        <div className='w-[24px] h-[24px] object-contain'/> {/* Changed to self-closing div */}
       </div>
     </motion.nav>
   );

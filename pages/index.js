@@ -5,7 +5,6 @@ import { About, Explore, Feedback, GetStarted, Hero, Insights, WhatsNew, World }
 
 const Home = () => (
   <div className="bg-primary-black overflow-hidden">
-    <Head />
     <Navbar />
     <Hero />
     <div className="relative">

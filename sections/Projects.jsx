@@ -31,7 +31,11 @@ const Projects = () => {
             initial={{ x: '100%' }} animate={{ x: 0 }} transition={{ duration: 1.0, type: 'spring', stiffness: 70 }}>
             <div className="flex flex-col items-center">
               <img src={project.imgUrl} alt={project.title} className="w-[540px] h-[303px] object-contain" />
-              <p className="text-center mt-2">{project.imageText}</p> {/* Add the text here */}
+              <p className="text-center mt-2">
+                <a href={project.imageText} target="_blank" rel="noopener noreferrer">
+                  View on Github
+                </a>
+              </p>
             </div>
             <div className="flex-[0.75] flex justify-center flex-col">
               <TypingText title={project.title} textStyles="text-[32px] font-bold text-center mb-6 z-10" />

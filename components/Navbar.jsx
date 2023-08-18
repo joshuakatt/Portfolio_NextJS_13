@@ -1,15 +1,22 @@
 import { motion } from 'framer-motion';
 import { useRouter } from 'next/router';
-import { Button } from '@chakra-ui/react'; // Moved up
+import { Button, Drawer, DrawerBody, DrawerFooter, DrawerCloseButton, DrawerHeader, DrawerOverlay, DrawerContent, useDisclosure } from '@chakra-ui/react'; // Updated imports
+import { HamburgerIcon } from '@chakra-ui/icons';
 import styles from '../styles';
 import { navVariants } from '../utils/motion';
 
 const Navbar = () => {
   const router = useRouter();
+  const { isOpen, onOpen, onClose } = useDisclosure();
   const showBackButton = router.pathname === '/projects' || router.pathname === '/profdev';
 
   const navigateToIndex = () => {
     router.push('/');
+  };
+
+  const navigateToPage = (page) => {
+    router.push(page);
+    onClose();
   };
 
   return (
@@ -35,7 +42,28 @@ const Navbar = () => {
         <div onClick={navigateToIndex} className='text-center'>
           <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>JOSHUA KATTAPURAM</h2>
         </div>
-        <div className='w-[24px] h-[24px] object-contain'/> {/* Changed to self-closing div */}
+        <div className='flex justify-end'>
+          <Button colorScheme='purple' size='lg' variant='outline' leftIcon={<HamburgerIcon />} onClick={onOpen}>
+            Menu
+          </Button>
+          <Drawer
+            isOpen={isOpen}
+            placement='right'
+            onClose={onClose}
+            size='xs' // Setting drawer size to extra small
+          >
+            <DrawerOverlay />
+            <DrawerContent bg="black">
+              <DrawerCloseButton />
+              <DrawerHeader>Navigate</DrawerHeader>
+              <DrawerBody>
+                <Button colorScheme='orange' onClick={() => navigateToPage('/')}>Home</Button>
+                <Button colorScheme='orange' onClick={() => navigateToPage('/projects')}>Projects</Button>
+                <Button colorScheme='orange' onClick={() => navigateToPage('/profdev')}>Professional Development</Button>
+              </DrawerBody>
+            </DrawerContent>
+          </Drawer>
+        </div>
       </div>
     </motion.nav>
   );

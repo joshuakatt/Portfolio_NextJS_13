@@ -27,7 +27,7 @@ const Projects = () => {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         {projects.map((project, index) => (
-          <motion.div key={index} className="flex lg:flex-row flex-col gap-8 mb-24 text-white"
+          <motion.div key={index} id={project.id} className="flex lg:flex-row flex-col gap-8 mb-24 text-white"
             initial={{ x: '100%' }} animate={{ x: 0 }} transition={{ duration: 1.0, type: 'spring', stiffness: 70 }}>
             <div className="flex flex-col items-center">
               <img src={project.imgUrl} alt={project.title} className="w-[540px] h-[303px] object-contain" />

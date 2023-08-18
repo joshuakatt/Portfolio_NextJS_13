@@ -25,6 +25,15 @@ const Explore = () => {
     router.push('/projects'); // Navigate to the about page
   };
 
+  const handleCardClick = (id) => {
+    if (id === active) {
+      // If the clicked card is already active, navigate to the specific project page
+      router.push(`/projects#${id}`);
+    } else {
+      // If the clicked card is not active, just update the active state
+      setActive(id);
+    }
+  };
   return (
     <section className={`${styles.paddings}`} id="explore">
       
@@ -56,7 +65,7 @@ const Explore = () => {
               {...world}
               index={index}
               active={active}
-              handleClick={setActive}
+              handleClick={() => handleCardClick(world.id)}
             />
           ))}
         </div>

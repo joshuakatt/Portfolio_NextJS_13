@@ -25,8 +25,8 @@ const About = () => (
       I'm <span className="font-extrabold text-white">Joshua</span>, a <span className="font-extrabold text-white">computer science junior</span>.<br />
       I love <span className="font-extrabold text-white">debugging</span> and thrive on challenges.<br />
       Check out my <span className="font-extrabold text-white">projects</span> and feel free to <span className="font-extrabold text-white">contact</span> me!<br /><br />
-        <a href="https://github.com/joshuakatt" target="_blank" rel="noopener noreferrer" className="text-white">Github</a> |
-        <a href="https://www.linkedin.com/in/joshua-kattapuram/" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a> |
+        <a href="https://github.com/joshuakatt" target="_blank" rel="noopener noreferrer" className="text-white">Github</a> | 
+        <a href="https://www.linkedin.com/in/joshua-kattapuram/" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a> | 
         <a href="mailto:jkattapuram@mun.ca" className="text-white">Email</a>
 
 

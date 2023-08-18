@@ -1,26 +1,26 @@
 export const exploreWorlds = [
   {
-    id: 'world-1',
+    id: 'Project-1',
     imgUrl: '/project-1.png',
     title: 'My own Neural Network',
   },
   {
-    id: 'world-2',
+    id: 'Project-2',
     imgUrl: '/project-2.png',
     title: 'SmartSlide',
   },
   {
-    id: 'world-3',
+    id: 'Project-3',
     imgUrl: '/project-3.png',
     title: 'PixScout: An Odyssey',
   },
   {
-    id: 'world-4',
+    id: 'Project-7',
     imgUrl: '/project-7.png',
     title: 'Serverless AWS app',
   },
   {
-    id: 'world-5',
+    id: 'Project-8',
     imgUrl: '/project-8.png',
     title: 'E-commerce website',
   },
@@ -55,7 +55,7 @@ export const insights = [
         'I believe that consistent self-development helps me improve myself. Here you canf ind some courses I have completed with Coursera, AWS, etc.',
   },
   {
-    imgUrl: '/planet-07.png',
+    imgUrl: '/notes_ss.png',
     title: 'View my notes on Machine Learning/AI',
     subtitle:
         'I have been very interested in the world of Machine Learning/AI. Here, you can find some notes, and my own neural network I built from scratch without any libraries. ',
@@ -67,23 +67,26 @@ export const insights = [
         'I love to play the piano in my free time, and believe that hitting the gym helps me stay on my toes at all times!',
   },
 ];
-
 export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
+    link: 'https://twitter.com/joshuakatt',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
+    link: 'https://linkedin.com/in/joshua-kattapuram',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    link: 'https://instagram.com/username',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    link: 'https://facebook.com/username',
   },
 ];
 export const exploreProjects = [

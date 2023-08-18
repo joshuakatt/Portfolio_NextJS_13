@@ -54,8 +54,8 @@ const Hero = () => {
             <a href="#explore">
               <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
                 <img
-                  src="/stamp.png"
-                  alt="stamp"
+                  src="/arrow-down.svg"
+                  alt="arrow"
                   className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
                 />
               </div>

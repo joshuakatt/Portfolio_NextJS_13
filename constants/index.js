@@ -61,7 +61,7 @@ export const insights = [
         'I have been very interested in the world of Machine Learning/AI. Here, you can find some notes, and my own neural network I built from scratch without any libraries. ',
   },
   {
-    imgUrl: '/planet-08.png',
+    imgUrl: '/headshot-1.jpeg',
     title: 'Find out more about my life outside Computer Science!',
     subtitle:
         'I love to play the piano in my free time, and believe that hitting the gym helps me stay on my toes at all times!',

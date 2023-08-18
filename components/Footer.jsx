@@ -24,7 +24,7 @@ const Footer = () => (
             className="w-[24px] h-[24px] object-contain"
           />
           <span className="font-normal text-[16px] text-white">
-            Joshua Kattapuram
+          <a href='https://github.com/joshuakatt' target="_blank" rel="noopener noreferrer">Joshua Kattapuram</a>
           </span>
         </button>
       </div>

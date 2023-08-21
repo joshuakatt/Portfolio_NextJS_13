@@ -5,7 +5,7 @@ import RootLayout from '../app/layout';
 const MyApp = ({ Component, pageProps }) => (
   <RootLayout>
     <Head>
-      <title>Joshua Kattapuram</title>
+      <title>Joshua's Portfolio</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.png" />
       <link rel="preconnect" href="https://stijndv.com" />

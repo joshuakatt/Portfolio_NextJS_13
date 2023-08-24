@@ -8,6 +8,8 @@ import React, { useState } from 'react';
 const Projects = () => {
   const projects = exploreProjects;
 
+  const preferredSkills = ['Python', 'JavaScript', 'Node.js', 'Python', 'Go', 'Tensorflow', 'AWS Lambda', 'Java', 'Lua', 'Serverless', 'React'];
+
   const TypingText = ({ title, textStyles }) => (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className={textStyles}>
       {title.split('').map((char, index) => (
@@ -57,9 +59,18 @@ const Projects = () => {
     setFilteredProjects(exploreProjects);
   };
 
+  const sortedTechStacks = Array.from(techStacks).sort((a, b) => {
+    const aIsPreferred = preferredSkills.includes(a);
+    const bIsPreferred = preferredSkills.includes(b);
+
+    if (aIsPreferred && !bIsPreferred) return -1;
+    if (!aIsPreferred && bIsPreferred) return 1;
+    return 0;
+  });
+
   return (
     <section className={`${styles.paddings} relative z-10`} style={{ color: 'white', fontFamily: 'Arial, sans-serif' }}>
-      <Accordion defaultIndex={[0]} allowMultiple className='mb-24'>
+      <Accordion allowMultiple className='mb-24'>
         <AccordionItem>
           <h2>
             <AccordionButton>
@@ -71,7 +82,7 @@ const Projects = () => {
           </h2>
           <AccordionPanel pb={4}>
             <div className="tech-stack-filter flex flex-wrap justify-center gap-2 mb-4">
-              {Array.from(techStacks).map(tech => (
+              {sortedTechStacks.map(tech => ( // Render the sorted tech stacks
                 <button
                   onClick={() => handleTechSelection(tech)}
                   className={`px-2 py-1 rounded ${selectedTechs.has(tech) ? 'bg-blue-200 hover:bg-blue-300' : 'bg-gray-200 hover:bg-gray-300'} text-black`}

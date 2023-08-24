@@ -205,7 +205,7 @@ export const exploreProjects = [
       },
       {
         "title": "Tech-stack",
-        "content": "AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, AWS Amplify Console"
+        "content": "AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Cognito, AWS Amplify Console, Serverless"
       }
     ],
     "imageText": "https://github.com/joshuakatt/crazyrydes-site"

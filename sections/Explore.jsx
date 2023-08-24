@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 import { motion } from 'framer-motion';
-import { Button, ButtonGroup } from '@chakra-ui/react'
+import { Button, ButtonGroup, useToast } from '@chakra-ui/react';
 import styles from '../styles';
 import { exploreWorlds } from '../constants';
 import { staggerContainer } from '../utils/motion';
@@ -9,6 +9,7 @@ import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Explore = () => {
   const router = useRouter();
+  const toast = useToast();
   const [active, setActive] = useState('world-2');
   const [currentPage, setCurrentPage] = useState(0);
   const cardsPerPage = 5;
@@ -29,6 +30,15 @@ const Explore = () => {
     if (id === active) {
       // If the clicked card is already active, navigate to the specific project page
       router.push(`/projects#${id}`);
+
+      // Warn user of error
+      toast({
+        title: "Redirect error",
+        description: "On certain devices, the content of the page may lean to the left. Hit refresh to fix this!",
+        status: "warning",
+        duration: 5000,
+        isClosable: true,
+      });
     } else {
       // If the clicked card is not active, just update the active state
       setActive(id);

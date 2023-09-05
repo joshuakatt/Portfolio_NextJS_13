@@ -92,6 +92,22 @@ export const socials = [
 
 export const exploreProjects = [
   {
+    "id": "Project-0",
+    "imgUrl": "/project-0.png",
+    "title": "edified.io",
+    "description": "My first Generative AI application.Developed a Generative AI application on OpenAI and BERT’s LLM using NextJS 13, Flask and Axios. Used Docker to containerize app for easier deployment and scalability.Used Kubernetes to deploy on cloud with Azure Kubernetes Service for high availability and load balancing.",
+    "sections": [
+      {
+        "title": "About this Project",
+        "content": "Notion.io was the inspiration for this app. I wanted to make note taking to the next level. I also learnt Kubernetes, Azure, and Flask so it was very enriching!"
+      },
+      {
+        "title": "Tech-stack",
+        "content": "NextJS 13, TypeScript, Docker, Azure Kubernetes Services, Flask, Python, Kubernetes, Azure DevOps, Javascript"
+      }
+    ],
+    "imageText": "https://github.com/joshuakatt/edified.io"
+  },{
     "id": "Project-1",
     "imgUrl": "/project-1.png",
     "title": "My own Neural Network",

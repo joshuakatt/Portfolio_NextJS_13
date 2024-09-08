@@ -93,6 +93,40 @@ export const socials = [
 export const exploreProjects = [
   {
     "id": "Project-0",
+    "imgUrl": "/project-evoCluster.jpg",
+    "title": "Evo-Cluster",
+    "description": "Developed evolutionary algorithms to identify optimal clusters and features for any dataset. This project significantly reduces the time spent optimizing clustering algorithms by 40%. The approach incorporates techniques like Mutation, Crossover, and Selection to find the best K-Means clusters.",
+    "sections": [
+      {
+        "title": "About this Project",
+        "content": "Evo-Cluster leverages evolutionary algorithms to streamline the process of finding the optimal clusters for datasets. By using a combination of Mutation, Crossover, and Selection mechanisms, the project efficiently pinpoints the best K-Means clusters, improving the clustering process and saving time. This project was developed over two months and delivered a 40% improvement in algorithm optimization time."
+      },
+      {
+        "title": "Tech-stack",
+        "content": "Python, NumPy"
+      }
+    ],
+    "imageText": "https://github.com/joshuakatt/Evo_Cluster/tree/main"
+  },
+  {
+    "id": "Project-1",
+    "imgUrl": "/project-symbolic-img-rec.jpg",
+    "title": "Symbolic AI Image Recognition",
+    "description": "Created an image recognition software using hyperdimensional AI vectors, achieving 88% accuracy without the need for neural networks. This approach resulted in reduced training times, highlighting the efficiency of symbolic AI methods.",
+    "sections": [
+      {
+        "title": "About this Project",
+        "content": "The Symbolic AI Image Recognition project bypasses traditional neural networks by using hyperdimensional AI vectors. With an accuracy of 88%, the software showcases the power of symbolic AI in image recognition while significantly reducing training time. The project serves as an exploration into alternative methods for image recognition, leveraging hyperdimensional computing principles."
+      },
+      {
+        "title": "Tech-stack",
+        "content": "Python"
+      }
+    ],
+    "imageText": "https://github.com/joshuakatt/Hyperdimensional_image_recognition"
+  },
+  {
+    "id": "Project-2",
     "imgUrl": "/project-0.png",
     "title": "edified.io",
     "description": "My first Generative AI application.Developed a Generative AI application on OpenAI and BERT’s LLM using NextJS 13, Flask and Axios. Used Docker to containerize app for easier deployment and scalability.Used Kubernetes to deploy on cloud with Azure Kubernetes Service for high availability and load balancing.",
@@ -107,8 +141,9 @@ export const exploreProjects = [
       }
     ],
     "imageText": "https://github.com/joshuakatt/edified.io"
-  },{
-    "id": "Project-1",
+  },
+  {
+    "id": "Project-3",
     "imgUrl": "/project-1.png",
     "title": "My own Neural Network",
     "description": "I embarked on an exciting journey to create my very own neural network, using the MNIST dataset. Building a Multilayer Perceptron (MLP) from scratch in Python, I trained it to recognize handwritten digits and evaluated its performance using Python and NumPy. The experience provided a deep insight into the intricacies of neural networks and honed my skills in data preprocessing and evaluation.",
@@ -125,7 +160,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/First-neural-network"
   },
   {
-    "id": "Project-2",
+    "id": "Project-4",
     "imgUrl": "/project-2.png",
     "title": "SmartSlide",
     "description": "SmartSlide revolutionizes meetings and presentations by automating slide transitions using presenter speech. By integrating live speech recognition, it eliminates the need to manually change slides, enhancing the flow and efficiency of communication. This innovative approach leverages Python, Tkinter, and the TextRazor API to create a seamless user experience.",
@@ -142,7 +177,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/SmartSlide"
   },
   {
-    "id": "Project-3",
+    "id": "Project-5",
     "imgUrl": "/project-3.png",
     "title": "PixScout: A 2D Odyssey",
     "description": "PixScout: A 2D Odyssey is a captivating game that brings together animated sprites, follow-around camera, and real-time in-game physics. With a modular game loading feature, players can easily switch between different game experiences. Whether exploring a simpler map in Game1 or tackling a more complex terrain in Game2, the adventure awaits. Built with LUA and LÖVE 2D, the game offers an immersive experience.",
@@ -159,7 +194,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/PixScout-A-2D-Odyssey"
   },
   {
-    "id": "Project-4",
+    "id": "Project-6",
     "imgUrl": "/project-4.png",
     "title": "ML Image Recognition",
     "description": "ML Image Recognition is an advanced exploration into the world of image classification using the CIFAR 100 dataset. By delving into convolutional neural networks (CNNs), transfer learning with models like VGG16, and utilizing techniques like data augmentation, the project achieves remarkable results. Two unique models were developed, each employing various strategies and technologies. This cutting-edge work, done using Python, Tensorflow, Keras, and Pandas, reflects the forefront of machine learning and AI.",
@@ -176,7 +211,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Img-recognition-ML"
   },
   {
-    "id": "Project-5",
+    "id": "Project-7",
     "imgUrl": "/project-5.png",
     "title": "ML Sentiment Analysis",
     "description": "ML Sentiment Analysis takes the challenge of classifying movie reviews into positive or negative sentiments using the IMDb dataset. A blend of Natural Language Processing techniques, word embeddings, and modern machine learning tools created a robust classification system. From tokenization to stop word removal and stemming, the project delves into the subtleties of text data preprocessing. Built using Python, Tensorflow, Keras, and GloVe, it's a showcase of how machine learning can be applied to the understanding of human emotions.",
@@ -193,7 +228,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Imdb-sentiment-analysis"
   },
   {
-    "id": "Project-6",
+    "id": "Project-8",
     "imgUrl": "/project-6.png",
     "title": "3D Rubik's Cube Simulator",
     "description": "The 3D Rubik's Cube Simulator is a creative blend of mathematics, visualization, and interactive design. Developed in Python and utilizing the Matplotlib and NumPy libraries, this simulator brings the classic Rubik's Cube to life on your screen. With quaternion-based rotation handling, a graphical user interface to solve the cube, and features to undo steps and take screenshots, it's a fascinating example of how programming can transform a traditional puzzle into an engaging digital experience.",
@@ -210,7 +245,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver"
   },
   {
-    "id": "Project-7",
+    "id": "Project-9",
     "imgUrl": "/project-7.png",
     "title": "CrazyRydes",
     "description": "CrazyRydes is a state-of-the-art serverless web application that leverages the power of AWS services to create a scalable and secure environment. With components such as AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito, this application embodies the future of efficient web development. The serverless backend, secure user authentication, flexible data storage, and streamlined frontend development process highlight the technological innovation at the core of this project.",
@@ -227,7 +262,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/crazyrydes-site"
   },
   {
-    "id": "Project-8",
+    "id": "Project-10",
     "imgUrl": "/project-8.png",
     "title": "Full Stack E-commerce Clone",
     "description": "The Full Stack E-commerce Clone is a robust and dynamic application that emulates a major online retail platform. Utilizing modern web technologies like JavaScript, npx, Firebase, React, Redux, and the Stripe API, this project offers a real-world e-commerce experience. With Firebase's real-time data handling, secure transaction processing through Stripe, and an engaging user interface crafted with HTML, CSS, and React Context API, it's a comprehensive demonstration of full-stack development expertise.",
@@ -244,7 +279,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Amazon-Clone"
   },
   {
-    "id": "Project-9",
+    "id": "Project-11",
     "imgUrl": "/project-9.png",
     "title": "Blog Management Platform",
     "description": "The Blog Management Platform is a sophisticated full-stack JS web application developed using Node.js and Express.js, showcasing an event-driven, non-blocking I/O model. The system is built around a RESTful API for seamless article management, supporting all CRUD (Create, Read, Update, Delete) operations. With dynamic EJS templates and well-designed route handling and server-side logic, this platform epitomizes efficiency, flexibility, and scalability in web development.",
@@ -261,7 +296,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/WebScraper"
   },
   {
-    "id": "Project-10",
+    "id": "Project-12",
     "imgUrl": "/project-10.png",
     "title": "Webpage Price Monitor",
     "description": "The Webpage Price Monitor is a Go-based scraper designed to track changes and notify users efficiently. Utilizing powerful libraries such as Gin and Colly, it offers a flexible and robust solution to web scraping needs. With a custom-interval goroutine for periodic tasks and integration with GoQuery for data extraction, this tool embodies precision, reliability, and scalability in monitoring and data analysis.",
@@ -278,7 +313,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/WebScraper"
   },
   {
-    "id": "Project-11",
+    "id": "Project-13",
     "imgUrl": "/project-11.png",
     "title": "Digital Can't Stop",
     "description": "Digital Can't Stop is a contemporary take on the classic game 'Can't Stop,' designed and crafted with Java and the Swing GUI library. Developed in collaboration with a team of fellow students for a software engineering course, this digital version introduces modern features such as Save/Load through serialization and potential networking capabilities. Thoughtfully inclusive, the game also includes accessibility features for individuals with CVD (Color Vision Deficiency).",
@@ -301,59 +336,8 @@ export const exploreProjects = [
 export const exploreCerts = [
   {
     "id": "Cert-1",
-    "imgUrl": "/UofL.png",
-    "title": "University of London",
-    "description": "",
-    "sections": [
-      {
-        "title": "About this Certification",
-        "content": ""
-      },
-      {
-        "title": "Issuing Authority",
-        "content": "University of London"
-      }
-    ],
-    "imageText": "University of London"
-  },
-  {
-    "id": "Cert-2",
-    "imgUrl": "/Yale.png",
-    "title": "Yale University",
-    "description": "",
-    "sections": [
-      {
-        "title": "About this Certification",
-        "content": ""
-      },
-      {
-        "title": "Issuing Authority",
-        "content": "Yale University"
-      }
-    ],
-    "imageText": "Yale University"
-  },
-  {
-    "id": "Cert-3",
-    "imgUrl": "/HKU.png",
-    "title": "The Hong Kong University of Science and Technology",
-    "description": "",
-    "sections": [
-      {
-        "title": "About this Certification",
-        "content": ""
-      },
-      {
-        "title": "Issuing Authority",
-        "content": "The Hong Kong University of Science and Technology"
-      }
-    ],
-    "imageText": "The Hong Kong University of Science and Technology"
-  },
-  {
-    "id": "Cert-4",
     "imgUrl": "/Upenn.png",
-    "title": "University of Pennsylvania",
+    "title": "Introduction to Intellectual Property",
     "description": "",
     "sections": [
       {
@@ -365,9 +349,92 @@ export const exploreCerts = [
         "content": "University of Pennsylvania"
       }
     ],
-    "imageText": "University of Pennsylvania"
+    "imageText": "https://coursera.org/share/4c85a56eaf7a280444a42d52a1d111c6"
+  },
+  {
+    "id": "Cert-2",
+    "imgUrl": "/HKU.png",
+    "title": "Green Business Strategy",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "The Hong Kong University of Science and Technology"
+      }
+    ],
+    "imageText": "https://coursera.org/share/30c24be1f2f38d16aeefb7854c2c3932"
+  },
+  {
+    "id": "Cert-3",
+    "imgUrl": "/SUNY.png",
+    "title": "International Cyber Conflicts",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "The State University of New York"
+      }
+    ],
+    "imageText": "https://coursera.org/share/3011766ec45f5b683bcd4859a41a8dff"
+  },
+  {
+    "id": "Cert-4",
+    "imgUrl": "/UofL.png",
+    "title": "The Manager's Toolkit",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "University of London"
+      }
+    ],
+    "imageText": "https://coursera.org/share/008a9d5ef8d390ca9b79a92ae14b9093"
+  },
+  {
+    "id": "Cert-5",
+    "imgUrl": "/Yale.png",
+    "title": "American Contract Law",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "Yale University"
+      }
+    ],
+    "imageText": "https://coursera.org/share/e193bd27de77070e18442536a5f8c716"
+  },
+  {
+    "id": "Cert-6",
+    "imgUrl": "/Stanford.png",
+    "title": "Einstein: The Special Theory of Relativity",
+    "description": "",
+    "sections": [
+      {
+        "title": "About this Certification",
+        "content": ""
+      },
+      {
+        "title": "Issuing Authority",
+        "content": "Stanford University"
+      }
+    ],
+    "imageText": "https://coursera.org/share/74925ddaf18e2fd989954454a3660051"
   }
-  
-  
-  // Add more projects as needed
 ];
+

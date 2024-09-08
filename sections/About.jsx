@@ -21,13 +21,14 @@ const About = () => (
         variants={fadeIn('up', 'tween', 0.2, 1)}
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        <span className="font-extrabold text-white">Hi!</span><br />
-      I'm <span className="font-extrabold text-white">Joshua</span>, a <span className="font-extrabold text-white">computer science junior</span>.<br />
-      I love <span className="font-extrabold text-white">debugging</span> and thrive on challenges.<br />
-      Check out my <span className="font-extrabold text-white">projects</span> and feel free to <span className="font-extrabold text-white">contact</span> me!<br /><br />
-        <a href="https://github.com/joshuakatt" target="_blank" rel="noopener noreferrer" className="text-white">Github</a> | 
-        <a href="https://www.linkedin.com/in/joshua-kattapuram/" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a> | 
-        <a href="mailto:jkattapuram@mun.ca" className="text-white">Email</a>
+      <span className="font-extrabold text-white">Hi!</span><br />
+      I'm <span className="font-extrabold text-white">Joshua</span>, a <span className="font-extrabold text-white">computer science sophomore</span> with a penchant for <span className="font-extrabold text-white">difficult problems, computer science, and finance</span>.<br />
+      I'm currently working on the <span className="font-extrabold text-white">Trading Floor</span> at <span className="font-extrabold text-white">Ontario Teacher's Pension Plan, Toronto</span>.<br />
+      Feel free to <span className="font-extrabold text-white">connect</span> or <span className="font-extrabold text-white">collaborate</span> with me.<br />
+      Check out my <span className="font-extrabold text-white">projects</span> and take a look around!<br /><br />
+        <a href="https://github.com/joshuakatt" target="_blank" rel="noopener noreferrer" className="text-white">Git</a> |
+        <a href="https://www.linkedin.com/in/joshua-kattapuram/" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a> |
+        <a href="mailto:joshuakattapuram10@gmail.com" className="text-white">Email</a>
 
 
 
@@ -40,11 +41,11 @@ const About = () => (
         className="w-[18px] h-[28px] object-contain mt-[28px]"
       />
     </motion.div>
-    
+
   </section>
 
 
-  
+
 );
 
 export default About;

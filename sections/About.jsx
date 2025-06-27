@@ -22,9 +22,8 @@ const About = () => (
         className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
       <span className="font-extrabold text-white">Hi!</span><br />
-      I'm <span className="font-extrabold text-white">Joshua</span>, a <span className="font-extrabold text-white">computer science sophomore</span> with a penchant for <span className="font-extrabold text-white">difficult problems, computer science, and finance</span>.<br />
-      I'm currently working on the <span className="font-extrabold text-white">Trading Floor</span> at <span className="font-extrabold text-white">Ontario Teacher's Pension Plan, Toronto</span>.<br />
-      Feel free to <span className="font-extrabold text-white">connect</span> or <span className="font-extrabold text-white">collaborate</span> with me.<br />
+      I'm <span className="font-extrabold text-white">Joshua</span>, a <span className="font-extrabold text-white">computer science</span> senior who likes <span className="font-extrabold text-white">solving problems!</span><br />
+      I'm currently founder & president of the <a href="https://www.munquantsoc.club/about" className="font-extrabold text-white">MUN Quant Society</a>.<br />
       Check out my <span className="font-extrabold text-white">projects</span> and take a look around!<br /><br />
         <a href="https://github.com/joshuakatt" target="_blank" rel="noopener noreferrer" className="text-white">Git</a> |
         <a href="https://www.linkedin.com/in/joshua-kattapuram/" target="_blank" rel="noopener noreferrer" className="text-white">LinkedIn</a> |

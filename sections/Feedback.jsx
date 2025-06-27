@@ -24,14 +24,13 @@ const Feedback = () => (
             Joshua
           </h4>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22.68px] leading-[16.68px] text-white">
-            3rd Year Student
+            4th Year Student
           </p>
         </div>
 
         <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45.6px] leading-[39.6px] text-white">
-          I am eager to learn and grow my understanding of the computer science world.
-          If you would like to collaborate or work on projects together, or have any advice for an aspiting developer
-          like myself, I would love to learn!
+          I am eager to learn and grow my understanding of the computer science/finance/fintech world.
+          I'm looking to connect and make new connections!
         </p>
       </motion.div>
 

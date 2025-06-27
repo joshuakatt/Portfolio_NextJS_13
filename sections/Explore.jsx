@@ -56,7 +56,7 @@ const Explore = () => {
       >
         <TypingText title="| Projects" textStyles="text-center" />
         <TitleText
-          title={<>Get a taste of some projects I've been working on!</>}
+          title={<>Some Projects I've worked on!</>}
           textStyles="text-center"
         />
         <div className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white z-10'>

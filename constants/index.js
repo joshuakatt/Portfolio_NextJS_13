@@ -1,28 +1,28 @@
 export const exploreWorlds = [
   {
+    id: 'Project-0',
+    imgUrl: '/project-evoCluster.jpg',
+    title: 'Evo-Cluster',
+  },
+  {
     id: 'Project-1',
+    imgUrl: '/backtest.jpg',
+    title: 'Real Time Trading & Backtest Bot',
+  },
+  {
+    id: 'Project-2',
     imgUrl: '/project-1.png',
     title: 'My own Neural Network',
   },
   {
-    id: 'Project-2',
+    id: 'Project-3',
     imgUrl: '/project-2.png',
     title: 'SmartSlide',
   },
   {
-    id: 'Project-3',
-    imgUrl: '/project-3.png',
-    title: 'PixScout: An Odyssey',
-  },
-  {
-    id: 'Project-7',
-    imgUrl: '/project-7.png',
-    title: 'Serverless AWS app',
-  },
-  {
-    id: 'Project-8',
-    imgUrl: '/project-8.png',
-    title: 'E-commerce website',
+    id: 'Project-2',
+    imgUrl: '/project-symbolic-img-rec.jpg',
+    title: 'Symbolic AI Image Recognition',
   },
 ];
 
@@ -95,11 +95,11 @@ export const exploreProjects = [
     "id": "Project-0",
     "imgUrl": "/project-evoCluster.jpg",
     "title": "Evo-Cluster",
-    "description": "Developed evolutionary algorithms to identify optimal clusters and features for any dataset. This project significantly reduces the time spent optimizing clustering algorithms by 40%. The approach incorporates techniques like Mutation, Crossover, and Selection to find the best K-Means clusters.",
+    "description": "Repurposed evolutionary algorithms to identify optimal clusters and features for any dataset. This project significantly reduces the time spent optimizing clustering algorithms by 40%. The approach incorporates techniques like Mutation, Crossover, and Selection to find the best K-Means clusters.",
     "sections": [
       {
         "title": "About this Project",
-        "content": "Evo-Cluster leverages evolutionary algorithms to streamline the process of finding the optimal clusters for datasets. By using a combination of Mutation, Crossover, and Selection mechanisms, the project efficiently pinpoints the best K-Means clusters, improving the clustering process and saving time. This project was developed over two months and delivered a 40% improvement in algorithm optimization time."
+        "content": "Evo-Cluster leverages a never seen before approach to streamline the process of finding the optimal clusters for datasets. By using a combination of Mutation, Crossover, and Selection mechanisms, the project efficiently pinpoints the best K-Means clusters, improving the clustering process and saving time. This project was developed over two months and delivered a 40% improvement in algorithm optimization time."
       },
       {
         "title": "Tech-stack",
@@ -110,9 +110,26 @@ export const exploreProjects = [
   },
   {
     "id": "Project-1",
+    "imgUrl": "/backtest.jpg",
+    "title": "Real Time Systematic Trading & Backtest Bot",
+    "description": "Built a real time systematic equity trading software to trade with ~0.7 ms latency from scratch. Built a backtesting mechnism to evaluate strategies on historical market data.",
+    "sections": [
+      {
+        "title": "About this Project",
+        "content": "Real time trading allows 10+ strategies to trade simulteously, supports risk management and rebalancing daily as well. Calculates slippage in real time. Backtest allows for comprehensive risk, pnl, and exposure evaluations on historical data. The bot is capable of handling multiple strategies simultaneously, making it a powerful tool for systematic trading."
+      },
+      {
+        "title": "Tech-stack",
+        "content": "Python, NumPy"
+      }
+    ],
+    "imageText": "https://github.com/MUNQuantSociety/MQSMaster"
+  },
+  {
+    "id": "Project-2",
     "imgUrl": "/project-symbolic-img-rec.jpg",
     "title": "Symbolic AI Image Recognition",
-    "description": "Created an image recognition software using hyperdimensional AI vectors, achieving 88% accuracy without the need for neural networks. This approach resulted in reduced training times, highlighting the efficiency of symbolic AI methods.",
+    "description": "Created an image recognition software using hyperdimensional AI vectors, achieving 88% accuracy without the need for neural networks. This approach resulted in reduced training times.",
     "sections": [
       {
         "title": "About this Project",
@@ -126,7 +143,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Hyperdimensional_image_recognition"
   },
   {
-    "id": "Project-2",
+    "id": "Project-3",
     "imgUrl": "/project-0.png",
     "title": "edified.io",
     "description": "My first Generative AI application.Developed a Generative AI application on OpenAI and BERT’s LLM using NextJS 13, Flask and Axios. Used Docker to containerize app for easier deployment and scalability.Used Kubernetes to deploy on cloud with Azure Kubernetes Service for high availability and load balancing.",
@@ -143,7 +160,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/edified.io"
   },
   {
-    "id": "Project-3",
+    "id": "Project-4",
     "imgUrl": "/project-1.png",
     "title": "My own Neural Network",
     "description": "I embarked on an exciting journey to create my very own neural network, using the MNIST dataset. Building a Multilayer Perceptron (MLP) from scratch in Python, I trained it to recognize handwritten digits and evaluated its performance using Python and NumPy. The experience provided a deep insight into the intricacies of neural networks and honed my skills in data preprocessing and evaluation.",
@@ -160,7 +177,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/First-neural-network"
   },
   {
-    "id": "Project-4",
+    "id": "Project-5",
     "imgUrl": "/project-2.png",
     "title": "SmartSlide",
     "description": "SmartSlide revolutionizes meetings and presentations by automating slide transitions using presenter speech. By integrating live speech recognition, it eliminates the need to manually change slides, enhancing the flow and efficiency of communication. This innovative approach leverages Python, Tkinter, and the TextRazor API to create a seamless user experience.",
@@ -177,7 +194,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/SmartSlide"
   },
   {
-    "id": "Project-5",
+    "id": "Project-6",
     "imgUrl": "/project-3.png",
     "title": "PixScout: A 2D Odyssey",
     "description": "PixScout: A 2D Odyssey is a captivating game that brings together animated sprites, follow-around camera, and real-time in-game physics. With a modular game loading feature, players can easily switch between different game experiences. Whether exploring a simpler map in Game1 or tackling a more complex terrain in Game2, the adventure awaits. Built with LUA and LÖVE 2D, the game offers an immersive experience.",
@@ -194,7 +211,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/PixScout-A-2D-Odyssey"
   },
   {
-    "id": "Project-6",
+    "id": "Project-7",
     "imgUrl": "/project-4.png",
     "title": "ML Image Recognition",
     "description": "ML Image Recognition is an advanced exploration into the world of image classification using the CIFAR 100 dataset. By delving into convolutional neural networks (CNNs), transfer learning with models like VGG16, and utilizing techniques like data augmentation, the project achieves remarkable results. Two unique models were developed, each employing various strategies and technologies. This cutting-edge work, done using Python, Tensorflow, Keras, and Pandas, reflects the forefront of machine learning and AI.",
@@ -211,7 +228,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Img-recognition-ML"
   },
   {
-    "id": "Project-7",
+    "id": "Project-8",
     "imgUrl": "/project-5.png",
     "title": "ML Sentiment Analysis",
     "description": "ML Sentiment Analysis takes the challenge of classifying movie reviews into positive or negative sentiments using the IMDb dataset. A blend of Natural Language Processing techniques, word embeddings, and modern machine learning tools created a robust classification system. From tokenization to stop word removal and stemming, the project delves into the subtleties of text data preprocessing. Built using Python, Tensorflow, Keras, and GloVe, it's a showcase of how machine learning can be applied to the understanding of human emotions.",
@@ -228,7 +245,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Imdb-sentiment-analysis"
   },
   {
-    "id": "Project-8",
+    "id": "Project-9",
     "imgUrl": "/project-6.png",
     "title": "3D Rubik's Cube Simulator",
     "description": "The 3D Rubik's Cube Simulator is a creative blend of mathematics, visualization, and interactive design. Developed in Python and utilizing the Matplotlib and NumPy libraries, this simulator brings the classic Rubik's Cube to life on your screen. With quaternion-based rotation handling, a graphical user interface to solve the cube, and features to undo steps and take screenshots, it's a fascinating example of how programming can transform a traditional puzzle into an engaging digital experience.",
@@ -245,7 +262,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Rubiks_Cube_3D_Visualizer_Solver"
   },
   {
-    "id": "Project-9",
+    "id": "Project-10",
     "imgUrl": "/project-7.png",
     "title": "CrazyRydes",
     "description": "CrazyRydes is a state-of-the-art serverless web application that leverages the power of AWS services to create a scalable and secure environment. With components such as AWS Lambda, Amazon API Gateway, AWS Amplify, Amazon DynamoDB, and Amazon Cognito, this application embodies the future of efficient web development. The serverless backend, secure user authentication, flexible data storage, and streamlined frontend development process highlight the technological innovation at the core of this project.",
@@ -262,7 +279,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/crazyrydes-site"
   },
   {
-    "id": "Project-10",
+    "id": "Project-11",
     "imgUrl": "/project-8.png",
     "title": "Full Stack E-commerce Clone",
     "description": "The Full Stack E-commerce Clone is a robust and dynamic application that emulates a major online retail platform. Utilizing modern web technologies like JavaScript, npx, Firebase, React, Redux, and the Stripe API, this project offers a real-world e-commerce experience. With Firebase's real-time data handling, secure transaction processing through Stripe, and an engaging user interface crafted with HTML, CSS, and React Context API, it's a comprehensive demonstration of full-stack development expertise.",
@@ -279,7 +296,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/Amazon-Clone"
   },
   {
-    "id": "Project-11",
+    "id": "Project-12",
     "imgUrl": "/project-9.png",
     "title": "Blog Management Platform",
     "description": "The Blog Management Platform is a sophisticated full-stack JS web application developed using Node.js and Express.js, showcasing an event-driven, non-blocking I/O model. The system is built around a RESTful API for seamless article management, supporting all CRUD (Create, Read, Update, Delete) operations. With dynamic EJS templates and well-designed route handling and server-side logic, this platform epitomizes efficiency, flexibility, and scalability in web development.",
@@ -296,7 +313,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/WebScraper"
   },
   {
-    "id": "Project-12",
+    "id": "Project-13",
     "imgUrl": "/project-10.png",
     "title": "Webpage Price Monitor",
     "description": "The Webpage Price Monitor is a Go-based scraper designed to track changes and notify users efficiently. Utilizing powerful libraries such as Gin and Colly, it offers a flexible and robust solution to web scraping needs. With a custom-interval goroutine for periodic tasks and integration with GoQuery for data extraction, this tool embodies precision, reliability, and scalability in monitoring and data analysis.",
@@ -313,7 +330,7 @@ export const exploreProjects = [
     "imageText": "https://github.com/joshuakatt/WebScraper"
   },
   {
-    "id": "Project-13",
+    "id": "Project-14",
     "imgUrl": "/project-11.png",
     "title": "Digital Can't Stop",
     "description": "Digital Can't Stop is a contemporary take on the classic game 'Can't Stop,' designed and crafted with Java and the Swing GUI library. Developed in collaboration with a team of fellow students for a software engineering course, this digital version introduces modern features such as Save/Load through serialization and potential networking capabilities. Thoughtfully inclusive, the game also includes accessibility features for individuals with CVD (Color Vision Deficiency).",
